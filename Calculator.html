@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- template css -->
+<link rel="stylesheet" href="/style.css">
+</head>
+<body style="background-color: rgb(250, 231, 204);">
+<div class="title">Calculator</div>
+<div class="form-center">
+<form>
+<table border="5" class="fish">
+<tr>
+<td>Enter Number 1</td>
+<td><input type="number" id="firstNumber"></td>
+</tr>
+<tr>
+<td>Enter Number 2</td>
+<td><input type="number" id="secondNumber"></td>
+</tr>
+<tr>
+<td colspan="2"><button type="button" onclick="Add()">+</button>
+<button type="button" onclick="Subtract()">-</button>
+<button type="button" onclick="Multiply()">*</button>
+<button type="button" onclick="Divide()">/</button></td>
+</tr>
+<tr>
+<td class="rebtn">Result</td>
+<td class="nuf" id="result"></td>
+</tr>
+</table>
+    </form></div>
+<script src="/js/script.js"></script>
+</body>
+</html>
